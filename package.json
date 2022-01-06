@@ -1,0 +1,33 @@
+{
+  "name": "@hashiprobr/expo-pdf-reader",
+  "version": "1.0.0",
+  "description": "TODO",
+  "keywords": [
+    "JavaScript",
+    "React",
+    "React Native",
+    "Expo",
+    "Expo Component",
+    "PDFReader",
+    "rn-pdf-reader-js"
+  ],
+  "homepage": "https://github.com/hashiprobr/expo-pdf-reader#readme",
+  "bugs": {
+    "url": "https://github.com/hashiprobr/expo-pdf-reader/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hashiprobr/expo-pdf-reader.git"
+  },
+  "license": "ISC",
+  "author": "Marcelo Hashimoto",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "rn-pdf-reader-js": "*"
+  }
+}
