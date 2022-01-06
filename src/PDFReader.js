@@ -9,9 +9,9 @@ export default function PDFReader(props) {
         <object
             {...props}
             type="application/pdf"
-            data={props.uri}
+            data={props.source && (props.source.uri || props.source.base64)}
         >
-            <Text>PDFReader Component not supported on device mode</Text>
+            <Text>Could not load PDF. Make sure the source is correct and the browser is not on device mode.</Text>
         </object>
     ) : (
         <OriginalPDFReader
