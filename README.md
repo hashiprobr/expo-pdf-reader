@@ -22,19 +22,19 @@ Install
 With npm:
 
 ```
-npm install @hashiprobr/expo-pdf-reader
+npm install react-native-webview expo-file-system expo-constants rn-pdf-reader-js @hashiprobr/expo-pdf-reader
 ```
 
 With yarn:
 
 ```
-yarn add @hashiprobr/expo-pdf-reader
+yarn add react-native-webview expo-file-system expo-constants rn-pdf-reader-js @hashiprobr/expo-pdf-reader
 ```
 
 With expo:
 
 ```
-expo install @hashiprobr/expo-pdf-reader
+expo install react-native-webview expo-file-system expo-constants rn-pdf-reader-js @hashiprobr/expo-pdf-reader
 ```
 
 If using Expo, add the module to `webpack.config.js`:
