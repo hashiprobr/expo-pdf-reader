@@ -25,7 +25,7 @@ Peer dependencies
     "expo-constants": "^8.0.0",
     "expo-file-system": "^8.1.0",
     "react": "^16.9.0",
-    "react-native": ">=0.61.5",
+    "react-native": "~0.61.5",
     "react-native-webview": "^7.6.0",
     "rn-pdf-reader-js": "^4.1.1"
 }

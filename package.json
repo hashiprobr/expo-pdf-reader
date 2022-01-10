@@ -1,6 +1,6 @@
 {
   "name": "@hashiprobr/expo-pdf-reader",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A wrapper around Xavier Carpentier's rn-pdf-reader-js that gracefully degrades in the web",
   "keywords": [
     "JavaScript",
