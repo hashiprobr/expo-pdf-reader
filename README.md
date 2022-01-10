@@ -16,25 +16,41 @@ for the web should use better solutions like
 [React-PDF](https://github.com/wojtekmaj/react-pdf) instead.
 
 
+Peer dependencies
+-----------------
+
+``` json
+{
+    "expo": "^36.0.2",
+    "expo-constants": "^8.0.0",
+    "expo-file-system": "^8.1.0",
+    "react": "^16.9.0",
+    "react-native": ">=0.61.5",
+    "react-native-webview": "^7.6.0",
+    "rn-pdf-reader-js": "^4.1.1"
+}
+```
+
+
 Install
 -------
 
 With npm:
 
 ```
-npm install react-native-webview expo-file-system expo-constants rn-pdf-reader-js @hashiprobr/expo-pdf-reader
+npm install @hashiprobr/expo-pdf-reader
 ```
 
 With yarn:
 
 ```
-yarn add react-native-webview expo-file-system expo-constants rn-pdf-reader-js @hashiprobr/expo-pdf-reader
+yarn add @hashiprobr/expo-pdf-reader
 ```
 
 With expo:
 
 ```
-expo install react-native-webview expo-file-system expo-constants rn-pdf-reader-js @hashiprobr/expo-pdf-reader
+expo install @hashiprobr/expo-pdf-reader
 ```
 
 If using Expo, add the module to `webpack.config.js`:
@@ -48,7 +64,7 @@ module.exports = async function (env, argv) {
         babel: {
             dangerouslyAddModulePathsToTranspile: [
                 '@hashiprobr/expo-pdf-reader',
-            ]
+            ],
         },
     }, argv);
     return config;
