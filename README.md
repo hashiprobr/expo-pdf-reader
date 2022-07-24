@@ -21,13 +21,13 @@ Peer dependencies
 
 ``` json
 {
-    "expo": "^36.0.2",
-    "expo-constants": "^8.0.0",
-    "expo-file-system": "^8.1.0",
-    "react": "^16.9.0",
-    "react-native": "~0.61.5",
-    "react-native-webview": "^7.6.0",
-    "rn-pdf-reader-js": "^4.1.1"
+    "expo": "45.0.0",
+    "expo-constants": "13.1.1",
+    "expo-file-system": "14.0.0",
+    "react": "17.0.2",
+    "react-native": "0.68.2",
+    "react-native-webview": "11.22.7",
+    "rn-pdf-reader-js": "4.1.1"
 }
 ```
 
@@ -75,4 +75,20 @@ If `webpack.config.js` does not exist, create it with:
 
 ```
 expo customize:web
+```
+
+
+Example
+-------
+
+``` jsx
+import React from 'react';
+
+import PDFReader from '@hashiprobr/expo-pdf-reader';
+
+export default function MyComponent(props) {
+    return (
+        <PDFReader source={{ uri: 'uri/to/a/pdf' }} />
+    );
+}
 ```
