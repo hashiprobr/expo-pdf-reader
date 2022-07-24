@@ -1,6 +1,6 @@
 {
   "name": "@hashiprobr/expo-pdf-reader",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "A wrapper around Xavier Carpentier's rn-pdf-reader-js that gracefully degrades in the web",
   "keywords": [
     "JavaScript",
@@ -31,7 +31,7 @@
     "expo-file-system": "14.0.0",
     "react": "17.0.2",
     "react-native": "0.68.2",
-    "react-native-webview": "11.22.7",
+    "react-native-webview": "11.18.1",
     "rn-pdf-reader-js": "4.1.1"
   }
 }

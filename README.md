@@ -26,7 +26,7 @@ Peer dependencies
     "expo-file-system": "14.0.0",
     "react": "17.0.2",
     "react-native": "0.68.2",
-    "react-native-webview": "11.22.7",
+    "react-native-webview": "11.18.1",
     "rn-pdf-reader-js": "4.1.1"
 }
 ```
