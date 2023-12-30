@@ -1,6 +1,8 @@
 expo-pdf-reader
 ===============
 
+[PROJECT DISCONTINUED]
+
 **A wrapper around [Xavier Carpentier](https://github.com/xcarpentier)'s
 [rn-pdf-reader-js](https://github.com/xcarpentier/rn-pdf-reader-js) that
 gracefully degrades in the web**
